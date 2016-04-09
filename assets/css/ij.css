@@ -207,4 +207,65 @@ Radio player
       cursor: pointer;
       cursor: grab; }
 
+/*
+Agenda
+======
+*/
+.agenda {
+  background-color: #f2f2f2; }
+  .agenda .days {
+    padding: 50px 0; }
+  .agenda .day {
+    width: 300px;
+    float: left; }
+    .agenda .day .day-name {
+      color: #F36D3A;
+      font-size: 120px;
+      font-weight: 600;
+      line-height: 0.8;
+      display: block;
+      clear: both; }
+    .agenda .day .day-number {
+      font-size: 30px;
+      margin-left: 10px; }
+    .agenda .day .hoy {
+      background: #FDE335;
+      color: black;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 0 10px;
+      position: relative;
+      top: -3px;
+      left: 5px; }
+  .agenda .events {
+    width: calc(100% - 350px);
+    float: right; }
+    .agenda .events .event {
+      color: gray;
+      padding: 20px 0;
+      border-top: 1px solid #cccccc;
+      overflow: hidden; }
+      .agenda .events .event .time {
+        width: 120px;
+        float: left;
+        font-size: 35px;
+        line-height: 0.9;
+        color: #b3b3b3; }
+      .agenda .events .event .info {
+        float: left;
+        width: 500px; }
+      .agenda .events .event h3 {
+        font-weight: lighter;
+        font-size: 40px;
+        margin: 0;
+        line-height: 0.8;
+        color: black; }
+      .agenda .events .event .tipos {
+        list-style: none;
+        padding: 0;
+        margin: 0; }
+        .agenda .events .event .tipos li {
+          display: inline;
+          margin-right: 20px; }
+
 /*# sourceMappingURL=ij.css.map */
