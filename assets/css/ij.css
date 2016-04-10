@@ -267,5 +267,28 @@ Agenda
         .agenda .events .event .tipos li {
           display: inline;
           margin-right: 20px; }
+  .agenda .filters {
+    color: white;
+    background-color: #4d4d4d;
+    padding: 20px 0; }
+    .agenda .filters .filtrar-label {
+      margin-right: 50px;
+      margin-left: 10px;
+      color: #cccccc; }
+    .agenda .filters ul {
+      list-style: none;
+      padding: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+      .agenda .filters ul li {
+        display: inline;
+        margin-right: 20px; }
+        .agenda .filters ul li input {
+          margin-right: 5px;
+          outline: none; }
+        .agenda .filters ul li label {
+          cursor: pointer; }
 
 /*# sourceMappingURL=ij.css.map */
