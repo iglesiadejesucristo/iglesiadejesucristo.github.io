@@ -141,6 +141,9 @@ Social call
   text-align: center;
   background-color: #e6e6e6;
   color: gray; }
+  .social a {
+    color: #F36D3A;
+    text-decoration: none; }
   .social .fb-like {
     margin-left: 10px;
     top: -3px; }
